@@ -11,7 +11,6 @@
 		784F7ECA1B32F4B200F5E859 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 784F7EC91B32F4B200F5E859 /* AppDelegate.m */; };
 		784F7ECD1B32F4B300F5E859 /* CyberHealth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 784F7ECB1B32F4B300F5E859 /* CyberHealth.xcdatamodeld */; };
 		784F7ED31B32F4B300F5E859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 784F7ED11B32F4B300F5E859 /* Main.storyboard */; };
-		784F7ED51B32F4B300F5E859 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784F7ED41B32F4B300F5E859 /* Images.xcassets */; };
 		784F7ED81B32F4B300F5E859 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 784F7ED61B32F4B300F5E859 /* LaunchScreen.xib */; };
 		784F7EE41B32F4B300F5E859 /* CyberHealthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 784F7EE31B32F4B300F5E859 /* CyberHealthTests.m */; };
 		7897941B1B411FAD0073D7B6 /* groupcreate1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 789793FA1B411FAD0073D7B6 /* groupcreate1.jpg */; };
@@ -205,6 +204,7 @@
 		78ABF2F81B417C9600F73317 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ABF2F31B417C9600F73317 /* UIColor+expanded.m */; };
 		78ABF2FB1B417CA300F73317 /* calender2.png in Resources */ = {isa = PBXBuildFile; fileRef = 78ABF2F91B417CA300F73317 /* calender2.png */; };
 		78ABF2FC1B417CA300F73317 /* calender.png in Resources */ = {isa = PBXBuildFile; fileRef = 78ABF2FA1B417CA300F73317 /* calender.png */; };
+		78C608921C8FF25700C807C1 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C608911C8FF25700C807C1 /* Media.xcassets */; };
 		78E4FD8E1B3926C500F60FF3 /* aboutus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78E4FD7E1B3926C500F60FF3 /* aboutus@2x.png */; };
 		78E4FD8F1B3926C500F60FF3 /* aboutus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78E4FD7F1B3926C500F60FF3 /* aboutus@3x.png */; };
 		78E4FD901B3926C500F60FF3 /* changepassword@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78E4FD801B3926C500F60FF3 /* changepassword@2x.png */; };
@@ -390,7 +390,6 @@
 		784F7ECE1B32F4B300F5E859 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		784F7ECF1B32F4B300F5E859 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		784F7ED21B32F4B300F5E859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		784F7ED41B32F4B300F5E859 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		784F7ED71B32F4B300F5E859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		784F7EDD1B32F4B300F5E859 /* CyberHealthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyberHealthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		784F7EE21B32F4B300F5E859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -646,6 +645,7 @@
 		78ABF2F31B417C9600F73317 /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
 		78ABF2F91B417CA300F73317 /* calender2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calender2.png; sourceTree = "<group>"; };
 		78ABF2FA1B417CA300F73317 /* calender.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calender.png; sourceTree = "<group>"; };
+		78C608911C8FF25700C807C1 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		78E4FD7E1B3926C500F60FF3 /* aboutus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aboutus@2x.png"; sourceTree = "<group>"; };
 		78E4FD7F1B3926C500F60FF3 /* aboutus@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aboutus@3x.png"; sourceTree = "<group>"; };
 		78E4FD801B3926C500F60FF3 /* changepassword@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "changepassword@2x.png"; sourceTree = "<group>"; };
@@ -934,10 +934,10 @@
 				784F7ECE1B32F4B300F5E859 /* MainViewController.h */,
 				784F7ECF1B32F4B300F5E859 /* MainViewController.m */,
 				784F7ED11B32F4B300F5E859 /* Main.storyboard */,
-				784F7ED41B32F4B300F5E859 /* Images.xcassets */,
 				784F7ED61B32F4B300F5E859 /* LaunchScreen.xib */,
 				784F7ECB1B32F4B300F5E859 /* CyberHealth.xcdatamodeld */,
 				784F7EC41B32F4B200F5E859 /* Supporting Files */,
+				78C608911C8FF25700C807C1 /* Media.xcassets */,
 			);
 			path = CyberHealth;
 			sourceTree = "<group>";
@@ -2136,7 +2136,6 @@
 				789794D51B4123610073D7B6 /* detail_forum_storyboard.storyboard in Resources */,
 				78ED3E5B1B425BDE0041BE16 /* emailIcon.png in Resources */,
 				78E4FD931B3926C500F60FF3 /* contact@3x.png in Resources */,
-				784F7ED51B32F4B300F5E859 /* Images.xcassets in Resources */,
 				789795AD1B412DAA0073D7B6 /* courseListIcon2.png in Resources */,
 				78ED3DC71B4257480041BE16 /* foodName1.png in Resources */,
 				78ED3DC21B4257480041BE16 /* downArrowBlack.png in Resources */,
@@ -2204,6 +2203,7 @@
 				789795571B412D960073D7B6 /* ex1.jpg in Resources */,
 				7897955D1B412D960073D7B6 /* exercise4.jpg in Resources */,
 				7899EA821B383632003CA009 /* About@3x.png in Resources */,
+				78C608921C8FF25700C807C1 /* Media.xcassets in Resources */,
 				78ABF2FB1B417CA300F73317 /* calender2.png in Resources */,
 				7897955F1B412D960073D7B6 /* exercise2.jpg in Resources */,
 				789795A31B412DAA0073D7B6 /* bg4.jpg in Resources */,
@@ -2572,7 +2572,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "63c038be-5eae-4dba-ac6c-eeb550710012";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -2587,7 +2587,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "63c038be-5eae-4dba-ac6c-eeb550710012";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
