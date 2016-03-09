@@ -1986,9 +1986,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		784F7EC01B32F4B200F5E859 /* CyberHealth */ = {
+		784F7EC01B32F4B200F5E859 /* CyberHealths */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 784F7EE71B32F4B300F5E859 /* Build configuration list for PBXNativeTarget "CyberHealth" */;
+			buildConfigurationList = 784F7EE71B32F4B300F5E859 /* Build configuration list for PBXNativeTarget "CyberHealths" */;
 			buildPhases = (
 				784F7EBD1B32F4B200F5E859 /* Sources */,
 				784F7EBE1B32F4B200F5E859 /* Frameworks */,
@@ -1998,7 +1998,7 @@
 			);
 			dependencies = (
 			);
-			name = CyberHealth;
+			name = CyberHealths;
 			productName = CyberHealth;
 			productReference = 784F7EC11B32F4B200F5E859 /* CyberHealth.app */;
 			productType = "com.apple.product-type.application";
@@ -2041,7 +2041,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 784F7EBC1B32F4B200F5E859 /* Build configuration list for PBXProject "CyberHealth" */;
+			buildConfigurationList = 784F7EBC1B32F4B200F5E859 /* Build configuration list for PBXProject "CyberHealths" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -2054,7 +2054,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				784F7EC01B32F4B200F5E859 /* CyberHealth */,
+				784F7EC01B32F4B200F5E859 /* CyberHealths */,
 				784F7EDC1B32F4B300F5E859 /* CyberHealthTests */,
 			);
 		};
@@ -2452,7 +2452,7 @@
 /* Begin PBXTargetDependency section */
 		784F7EDF1B32F4B300F5E859 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 784F7EC01B32F4B200F5E859 /* CyberHealth */;
+			target = 784F7EC01B32F4B200F5E859 /* CyberHealths */;
 			targetProxy = 784F7EDE1B32F4B300F5E859 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -2634,7 +2634,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		784F7EBC1B32F4B200F5E859 /* Build configuration list for PBXProject "CyberHealth" */ = {
+		784F7EBC1B32F4B200F5E859 /* Build configuration list for PBXProject "CyberHealths" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				784F7EE51B32F4B300F5E859 /* Debug */,
@@ -2643,7 +2643,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		784F7EE71B32F4B300F5E859 /* Build configuration list for PBXNativeTarget "CyberHealth" */ = {
+		784F7EE71B32F4B300F5E859 /* Build configuration list for PBXNativeTarget "CyberHealths" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				784F7EE81B32F4B300F5E859 /* Debug */,
