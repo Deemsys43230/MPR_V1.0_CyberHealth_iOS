@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
-@interface MainViewController : UIViewController
-@property (strong, nonatomic) IBOutlet UIImageView *background;
+@interface MainViewController : UIViewController<UITextFieldDelegate>
+@property (strong, nonatomic) IBOutlet UITextField *emailid;
+@property (strong, nonatomic) IBOutlet UITextField *password;
 @end
 

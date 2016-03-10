@@ -15,6 +15,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.emailid.delegate=self;
+    self.password.delegate=self;
+    self.emailid.tag=1;
+    self.password.tag=2;
    
 }
 
@@ -48,6 +52,12 @@
     [self.navigationController pushViewController:initialvc animated:YES];
     
     
+}
+-(BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+        
+    [textField resignFirstResponder];
+    return NO;
 }
 - (IBAction)goToUserForgotPassword:(id)sender {
     
