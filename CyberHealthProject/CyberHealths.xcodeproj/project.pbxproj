@@ -381,7 +381,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		784F7EC11B32F4B200F5E859 /* CyberHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CyberHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		784F7EC11B32F4B200F5E859 /* CyberHealths.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CyberHealths.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		784F7EC51B32F4B200F5E859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		784F7EC61B32F4B200F5E859 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		784F7EC81B32F4B200F5E859 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -919,7 +919,7 @@
 		784F7EC21B32F4B200F5E859 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				784F7EC11B32F4B200F5E859 /* CyberHealth.app */,
+				784F7EC11B32F4B200F5E859 /* CyberHealths.app */,
 				784F7EDD1B32F4B300F5E859 /* CyberHealthTests.xctest */,
 			);
 			name = Products;
@@ -2000,7 +2000,7 @@
 			);
 			name = CyberHealths;
 			productName = CyberHealth;
-			productReference = 784F7EC11B32F4B200F5E859 /* CyberHealth.app */;
+			productReference = 784F7EC11B32F4B200F5E859 /* CyberHealths.app */;
 			productType = "com.apple.product-type.application";
 		};
 		784F7EDC1B32F4B300F5E859 /* CyberHealthTests */ = {
@@ -2609,7 +2609,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CyberHealth.app/CyberHealth";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CyberHealths.app/CyberHealths";
 			};
 			name = Debug;
 		};
@@ -2627,7 +2627,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CyberHealth.app/CyberHealth";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CyberHealths.app/CyberHealths";
 			};
 			name = Release;
 		};
