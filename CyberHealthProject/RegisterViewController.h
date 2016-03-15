@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FXBlurView.h"
+
 @interface RegisterViewController : UIViewController<UITextFieldDelegate>
-@property (strong, nonatomic) IBOutlet FXBlurView *blurView;
-@property (strong, nonatomic) IBOutlet UITextField * fName;
-@property (strong, nonatomic) IBOutlet UITextField * lName;
-@property (strong, nonatomic) IBOutlet UITextField * eMailID;
-@property (strong, nonatomic) IBOutlet UITextField * mobileNumber;
+
+@property (strong, nonatomic) IBOutlet UITextField * name;
+@property (strong, nonatomic) IBOutlet UITextField * emailid;
+@property (strong, nonatomic) IBOutlet UITextField * pwd;
+@property (strong, nonatomic) IBOutlet UITextField * cpwd;
 @end

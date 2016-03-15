@@ -1,0 +1,23 @@
+//
+//  Cyberhealths.pch
+//  CyberHealths
+//
+//  Created by DeemsysInc on 14/03/16.
+//  Copyright (c) 2016 deemsys. All rights reserved.
+//
+
+#ifndef CyberHealths_Cyberhealths_pch
+#define CyberHealths_Cyberhealths_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreGraphics/CoreGraphics.h>
+    #import "SCLAlertView.h"
+    #import "VSDropdown.h"
+#endif

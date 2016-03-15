@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
+#define ShowNetworkActivityIndicator() [UIApplication sharedApplication].networkActivityIndicatorVisible = YES
+#define HideNetworkActivityIndicator() [UIApplication sharedApplication].networkActivityIndicatorVisible = NO
+
 @interface MainViewController : UIViewController<UITextFieldDelegate>
 @property (strong, nonatomic) IBOutlet UITextField *emailid;
+@property (weak, nonatomic) IBOutlet UIView *logintf;
 @property (strong, nonatomic) IBOutlet UITextField *password;
 @end
 

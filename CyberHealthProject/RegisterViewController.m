@@ -16,25 +16,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.blurView.blurRadius = 10;
-    self.blurView.tintColor=[UIColor clearColor];
-    self.blurView.dynamic = NO;
-    self.blurView.contentMode = UIViewContentModeRight;
-    self.blurView.layer.contentsGravity = kCAGravityBottomLeft;
-    [self.blurView setClipsToBounds:YES];
-    [self.blurView updateAsynchronously:YES completion:^{
-        // Whatever you want
-    }];
-   
-    self.fName.delegate=self;
-     self.lName.delegate=self;
-     self.eMailID.delegate=self;
-     self.mobileNumber.delegate=self;
+     
+    self.name.delegate=self;
+     self.emailid.delegate=self;
+     self.pwd.delegate=self;
+     self.cpwd.delegate=self;
     
-    self.fName.tag=1;
-    self.lName.tag=2;
-    self.eMailID.tag=3;
-    self.mobileNumber.tag=4;
+    self.name.tag=1;
+    self.emailid.tag=2;
+    self.pwd.tag=3;
+    self.cpwd.tag=4;
+
     UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didTapAnywhere:)];
     [self.view addGestureRecognizer:tapRecognizer];
 }
@@ -44,15 +36,13 @@
     [self.view endEditing:YES];
 }
 
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
--(void)viewWillAppear:(BOOL)animated
-{
-  
-    
-}
+
 #pragma mark-delegates
 -(BOOL)textFieldShouldReturn:(UITextField*)textField
 {
@@ -92,7 +82,7 @@
         }
     }
     
-    if ((textField==self.fName)||(textField==self.lName))
+    if (textField==self.name)
     {
         if ([string rangeOfCharacterFromSet:[NSCharacterSet decimalDigitCharacterSet]].location != NSNotFound)
         {
@@ -106,7 +96,8 @@
     return YES;
 }
 #pragma mark- Actions
-- (IBAction)Register:(id)sender {
+- (IBAction)proceed:(id)sender {
+    [self.navigationController pushViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"Register2"] animated:YES];
 }
 
 @end

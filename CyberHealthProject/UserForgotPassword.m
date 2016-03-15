@@ -17,15 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationController.topViewController.title=@"Forgot Password";
-    self.blurView.blurRadius = 10;
-    self.blurView.tintColor=[UIColor clearColor];
-    self.blurView.dynamic = NO;
-    self.blurView.contentMode = UIViewContentModeRight;
-    self.blurView.layer.contentsGravity = kCAGravityBottomLeft;
-    [self.blurView setClipsToBounds:YES];
-    [self.blurView updateAsynchronously:YES completion:^{
-        // Whatever you want
-    }];
 
     UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didTapAnywhere:)];
     [self.view addGestureRecognizer:tapRecognizer];
@@ -40,11 +31,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
--(void)viewWillAppear:(BOOL)animated
-{
-    
-    
-}
+
 #pragma mark-delegates
 -(BOOL)textFieldShouldReturn:(UITextField*)textField
 {
@@ -89,26 +76,14 @@
     return YES;
 }
 - (IBAction)sendEmail:(id)sender {
-    SCLAlertView *alert = [[SCLAlertView alloc] init];
     
-    // alert.backgroundType = Blur;
-    [alert setShowAnimationType:SlideInFromLeft];
-    [alert setHideAnimationType:SlideOutToBottom];
-    alert.backgroundType = Blur;
+  UIViewController* usersecretques =[self.storyboard instantiateViewControllerWithIdentifier:@"UserPassSecretQuestion"];
+    [self.navigationController pushViewController:usersecretques animated:YES];
     
-    [alert showWaiting:self title:@"Please wait..."
-              subTitle:@""
-      closeButtonTitle:nil duration:3.0f];
-    [alert alertIsDismissed:^{
-       
-        [self performSelector:@selector(dismiss) withObject:self afterDelay:0.2f];
-        
-    }];
+ 
     
 }
--(void)dismiss{
-    [self.navigationController popToRootViewControllerAnimated:YES];
-}
+
 
 
 @end
